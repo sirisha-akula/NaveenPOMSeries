@@ -36,7 +36,7 @@ public class LoginPageTest extends BaseTest{
 	}
 	@Description("Testing forgotpasswork link on login page")
 	@Severity(SeverityLevel.CRITICAL)
-	@Test(enabled = true)
+	@Test
 	public void loginPageForgotPwdLinkTest() {
 		Assert.assertTrue(loginpage.isforgotPwdLinkExist());
 	
